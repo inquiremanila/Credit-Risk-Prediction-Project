@@ -1,10 +1,9 @@
 # Credit Risk Prediction Project
 
-## Overview
+## Project Overview
 
-The Credit Risk Prediction project aims to create a predictive model that assesses the likelihood of loan defaults among borrowers. By leveraging various features, including financial history and demographic information, this project provides insights to financial institutions for more informed lending decisions.
-
-## Objectives
+This credit risk prediction project is a personal endeavor aimed at applying machine learning techniques to a real-world problem. 
+The goal is to develop a robust predictive model that assesses the likelihood of loan defaults based on various borrower characteristics.
 
 - **Risk Assessment**: Evaluate borrower profiles to predict the probability of loan defaults.
 - **Model Development**: Develop and compare multiple machine learning models to identify the best performing algorithm.
@@ -36,8 +35,19 @@ The dataset used for this project, named `archive (1).zip`, consists of several 
    - Comparison of model results to determine the best performer.
    - Interpretation of model predictions using SHAP values to assess feature importance.
 
-5. **Results and Conclusions**:
-   - Summary of findings and recommendations based on model outputs.
+## Opportunities for Improvement
+
+While the current model provides valuable insights, there are several areas for potential enhancement, including:
+
+- **Data Quality**: Collecting more comprehensive and high-quality data could improve model accuracy.
+- **Feature Engineering**: Additional features could be explored and created to enhance predictive power.
+- **Model Selection**: Testing a broader range of algorithms, including ensemble methods and neural networks, could yield better performance.
+
+## Result/ Report Analysis
+
+- The model results and visualization are presented in detailed in the Jupyter Notebook through 
+Visual Studio Code. The exported file is attached on this repository named ' CRP-Report.ipynb '
+
 
 ## Installation and Usage
 
@@ -45,5 +55,3 @@ To run the project, ensure you have the following Python packages installed:
 
 ```bash
 pip install pandas numpy scikit-learn xgboost matplotlib seaborn shap
-
-[View the complete Credit Risk Analysis Report here](./CRP-Report.ipynb)
